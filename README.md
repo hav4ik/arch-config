@@ -18,12 +18,14 @@ External plugins and resources that are used but not included in repository:
 
 Other stuffs that ROCKS:
 * [dwb][dwb]: a lightweight web browser, it's fully usable even without the mouse
-* [wicd-curses][wicd-curses]: a powerful network manager with compact and user-friendly ncurses interface
+* [wicd-curses][wicd-curses]: a powerful network manager with compact and user-friendly ncurses interface. 
 * [connman][connman]: a powerful network manager with great cli interface
 * [ncmpcpp][ncmpcpp]: an [mpd][mpd] client with a great user interface and rich features
 * [weechat][weechat]: a highly extendable and feature rich IRC Client currently under heavy development
 
 ## Some screenshots:
+![scrot1](https://raw.githubusercontent.com/hav4ik/arch-config/master/scrot_1.png)
+![scrot2](https://raw.githubusercontent.com/hav4ik/arch-config/master/scrot_2.png)
 
 
 [dwm]: https://wiki.archlinux.org/index.php/dwm
@@ -38,3 +40,14 @@ Other stuffs that ROCKS:
 [vim-fugitive]: https://github.com/tpope/vim-fugitive
 [nerdtree]: https://github.com/scrooloose/nerdtree
 [clang-complete]: https://github.com/Rip-Rip/clang_complete
+
+[dwb]: https://wiki.archlinux.org/index.php/dwb
+[wicd-curses]: https://wiki.archlinux.org/index.php/wicd
+[connman]: https://wiki.archlinux.org/index.php/Connman
+[ncmpcpp]: https://wiki.archlinux.org/index.php/ncmpcpp
+[weechat]: https://wiki.archlinux.org/index.php/WeeChat
+
+[dwm-config]: https://github.com/hav4ik/arch-config/tree/master/dwm
+[vim-config]: https://github.com/hav4ik/arch-config/blob/master/dotfiles/.vimrc
+[urxvt-config]: https://github.com/hav4ik/arch-config/blob/master/dotfiles/.Xresources
+[offlineimap-config]: #

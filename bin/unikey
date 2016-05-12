@@ -1,0 +1,22 @@
+#!/bin/bash
+
+output=""
+
+if [ "$(ibus engine)" == "Unikey" ] 
+then 
+	output+="unikey  "
+else
+	output+="xkb  "
+fi
+
+if [ "$(xset -q|grep LED| awk '{ print $10 }')" == "00000000" ]
+then
+	output+="en-us"
+else
+	output+="ru/ua"
+fi
+
+echo $output
+
+
+
